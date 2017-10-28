@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 
 class Nav extends Component {
   render() {
+		const styles = {
+			background: "rgba(110, 127, 238, 0.76)"
+		}
     return (
-      <nav>
+      <nav style={styles}>
   <div className="nav-wrapper container">
     <a href="#home" className="brand-logo">Carol Tots</a>
     <ul id="nav-mobile" className="right hide-on-med-and-down">

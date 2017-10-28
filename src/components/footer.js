@@ -2,8 +2,11 @@ import { Footer } from 'react-materialize';
 import React from 'react';
 
 const Foot = () => {
+	const styles = {
+		background: "rgba(110, 127, 238, 0.76)"
+	}
   return (
-    <Footer copyrights="Designed and Developed by Otooto Pty (LTD)"
+    <Footer style={styles} copyrights="Designed and Developed by Otooto Pty (LTD)"
 	moreLinks={
 		<a className="grey-text text-lighten-4 right" href="#!">All right reserved © 2017</a>
 	}
