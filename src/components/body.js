@@ -51,7 +51,7 @@ class Body extends Component {
 							Follow the map to locate us :)
              </p>
 						 <Map isMarkerShown={true}
-						 			googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+						 			googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKPnmvXy4rQR6R7esDDm3SxqXYAckD1Kc&v=3.exp&libraries=geometry,drawing,places"
   								loadingElement={<div style={{ height: `100%` }} />}
   								containerElement={<div style={{ height: `400px` }} />}
   								mapElement={<div style={{ height: `100%` }} />}/>
